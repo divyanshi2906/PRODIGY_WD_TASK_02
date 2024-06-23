@@ -1,0 +1,77 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family : cursive;
+    box-sizing :border-box;
+}
+
+body{
+    background-color:rgb(179, 42, 42);
+    display : flex;
+    padding-top: 230px;
+    justify-content: center;
+    text-align : center;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.lapButton button{
+    font-size: 1em;
+    padding: 10px;
+    margin: 5px;
+}
+
+.box{
+    color:rgb(225, 223, 228);
+    background-color:rgb(26, 18, 18);
+    height : fit-content;
+    width : fit-content;
+    margin : auto;
+    padding:50px;
+    border-radius :60px 10px 60px 10px ; 
+    box-shadow : 5px 5px 10px white;
+   
+}
+
+.heading{
+    color:rgb(232, 114, 114);
+    text-align : center;
+}
+
+h1{
+    font-size : 50px;
+}
+
+.lapButton {
+    display: flex;
+    justify-content: space-around;
+}
+.lapButton button{ 
+    height: 45px;
+    width: 25%;
+    border-radius: 5px;
+    background: #78c1f3; 
+    border : none;
+    outline : none;
+    font-size :15px;
+    padding : 10px;
+    margin :10px;
+    font-size: 16px;
+    cursor : pointer;
+    
+    
+}
+
+button{ 
+    border : none;
+    outline : none;
+    font-size :15px;
+    padding : 10px;
+    margin :10px;
+    border-radius : 5px;
+    cursor : pointer;
+
+}
